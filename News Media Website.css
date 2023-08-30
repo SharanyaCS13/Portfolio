@@ -1,0 +1,310 @@
+
+
+
+
+
+.header{
+    text-align: center;
+    font-size:30px;
+    
+}
+
+.header h1 {
+    text-align:center;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav{
+    background-color: turquoise;
+    overflow: hidden;
+   
+ 
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left
+    display: block;
+    color: coral;
+    text-align: centre;
+    padding: 10px 10px; 
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.ticker-container {
+width: 100%;
+overflow: hidden;
+    margin-top: 10px;
+}
+.ticker-wrapper {
+width: 100%;
+padding-left: 100%;
+background-color: blue;
+    color: white;
+}
+@keyframes ticker {
+0% {
+transform: translate3d(0, 0, 0);
+}
+100% {
+transform: translate3d(-100%, 0, 0);
+}
+}
+.ticker-transition {
+display: inline-block;
+white-space: nowrap;
+padding-right: 100%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-name: ticker;
+animation-duration: 40s;
+    animation-delay: 0;
+}
+.ticker-transition:hover {
+animation-play-state: paused;
+cursor: pointer;
+}
+.ticker-item {
+display: inline-block;
+padding: 0 2rem;
+}
+
+.ticker-item a {
+display: inline-block;
+padding: 0 2rem;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: coral;
+    color:turquoise;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a:active {
+    background-color:coral;
+    color: turquoise;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav a.active {
+   background-color:coral;
+    color: turquoise;
+}
+
+.content {
+  padding: 16px;
+}
+
+
+main {
+    background-color: coral;
+    margin-top:10px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  grid-gap: 10px;
+  grid-template-rows: 430px  430px 430px;
+ 
+}
+
+.section1 {
+    grid-column:  1;
+    grid-row: 1;
+            padding: 10px;
+background-color:gainsboro;
+                font-size: 20px;
+width: 430px;
+            height:430px;          
+    text-align: center;
+  }
+ 
+.section2 {
+     grid-column: 2;
+    grid-row: 1;
+            padding: 10px;
+background-color:gainsboro;
+                font-size: 20px;
+ width: 430px;
+            height:430px;          
+  text-align: center;
+  }
+
+ 
+.section3 {
+    
+    grid-column:3;
+    grid-row: 1;
+            padding: 10px;
+background-color:gainsboro;
+                font-size: 20px;
+width:430px;
+            height:430px;          
+    text-align: center;
+ }
+
+ .section4 {
+     margin-top: 20px;
+      grid-column:1;
+    grid-row: 2;
+            padding: 10px;
+background-color:gainsboro;
+                font-size: 20px;
+ width: 430px;
+            height:430px;          
+  text-align: center;
+        }
+
+.section5{
+    margin-top: 20px;
+      grid-column:2;
+    grid-row: 2;
+            padding: 10px;
+background-color:gainsboro;
+                font-size: 20px;
+ width: 430px;
+            height:430px;          
+  text-align: center;
+}
+ 
+.section6{
+    margin-top: 20px;
+      grid-column:3;
+    grid-row: 2;
+            padding: 10px;
+background-color:gainsboro;
+                font-size: 20px;
+ width: 430px;
+            height:430px;          
+  text-align: center;
+}
+
+.ad{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+}
+.newsletter {
+    margin-top: 10px;
+    background-color: turquoise;
+    align-items: center;
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+
+
+/* Set a style for all buttons */
+.subscribe button {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: centre;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: red;
+  color: white;
+  align: centre;
+}
+
+
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: cornsilk;
+ padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: turquoise;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
