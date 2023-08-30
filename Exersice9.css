@@ -1,0 +1,156 @@
+
+html    {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+/* Reset default margin and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default styles for larger screens */
+/* Add your default styles here */
+.split-container {
+    display: flex;
+    height: 100vh;
+}
+
+.split {
+    flex: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Left split styles */
+#leftSplit {
+    background-color: #f2f2f2;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 100px); /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Right split styles */
+#rightSplit {
+    background-color: #ddd;
+}
+
+.h1{
+    background-color: lawngreen;
+    color: black;
+    
+}
+/* Center the slideshow */
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+/* Your existing styles */
+
+/* Media query for screens with a maximum width of 780px */
+@media (max-width: 780px) {
+    .slideshow-container {
+        max-height: auto;
+        max-width: 100%;/* Adjust max-height for responsiveness */
+    }
+    
+    
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 350px) {
+    .slideshow-container {
+        max-height: auto;
+        max-width: 50%;
+ }
+
+    .mySlides.fade {
+        display: none;
+        text-align: center;
+}
+
+    .mySlides.fade img {
+        max-height: 100%; /* Uniform image size for smaller screens */
+        max-width: 50%;
+        margin: 0 auto;
+}
+    #video {
+    max-width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+}
+
+/* CSS for the buttons *//* ... (other styles) ... */
+
+
+#previousButton,
+#nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#previousButton {
+    left: 15px;
+}
+
+#nextButton {
+    right: 15px;
+}
+
+
+
+
