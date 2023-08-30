@@ -1,0 +1,165 @@
+body {
+            background-color: black;
+            color: white;
+        }
+
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            }
+
+.canvas {
+            background-color: gold;
+            margin-top: 5px;
+            height: 400px;
+            width: 30%;
+            position: relative;
+            cursor: pointer;
+            }
+      
+.canvas2 {
+            background-color: plum;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+            margin-left: -70px;
+            }
+
+.canvas3 {
+            background-color: pink;
+            margin-top: 5px;
+            position: relative;
+            margin-left: -70px;
+            }
+
+.canvas-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            color: black;
+            font-size: 30px;
+            }
+
+
+.canvas:hover {
+            transform: scale(1.1);
+            background-color: hsl(39, 100%, 35%); /* Darken the background color on hover for canvas 1 */
+            }
+
+.canvas2:hover {
+            background-color: hsl(270, 100%, 70%); /* Darken the background color on hover for canvas 2 */
+            }
+
+.canvas3:hover {
+            background-color: hsl(330, 100%, 35%); /* Darken the background color on hover for canvas 3 */
+            }
+
+.canvas:hover .canvas-text {
+            opacity: 2;
+           }
+
+
+body {
+            background-color: black;
+            color: white;
+        }
+
+.split-container {
+    display: flex;
+    height: 90vh;
+}
+
+.split {
+    flex: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Left split styles */
+#leftSplit {
+    background-color: purple;
+}
+
+#rightSplit{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: gold;
+    color: black;
+}
+
+#rightSplit main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#rightSplit p{
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: black;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+}
