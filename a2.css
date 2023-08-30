@@ -1,0 +1,336 @@
+/* Reset default margin and padding */
+
+/* Default styles for larger screens */
+/* Add your default styles here */
+
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html    {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+   .sticky-header h1 {
+        font-size: 20px; /* Example: Adjust font size for smaller screens */
+    }
+    
+    .sticky-header h2 {
+        font-size: 18px; /* Example: Adjust font size for smaller screens */
+    }
+
+     .sticky-header p {
+        font-size: 16px; /* Example: Adjust font size for smaller screens */
+    }
+
+    /* Additional adjustments for smaller screens */
+    .container-grid {
+        grid-template-columns: repeat(4,1fr); /* Change to a single column layout */
+    }
+    
+    .container-grid img {
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto;
+}
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+    .sticky-header h1 {
+        font-size: 18px; /* Example: Adjust font size for even smaller screens */
+    }
+    
+    .sticky-header h2 {
+        font-size: 16px; /* Example: Adjust font size for smaller screens */
+    }
+
+     .sticky-header p {
+        font-size: 14px; /* Example: Adjust font size for smaller screens */
+    }
+
+
+    /* Additional adjustments for very small screens */
+     .container-grid {
+        grid-template-columns: repeat(2, 1fr); /* Adjust grid layout for smaller screens */
+    }
+    
+    .container-grid img {
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto;
+}
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header */
+.sticky-header {
+    background-color: gold;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 97%;
+    z-index: 90;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    border: 5px solid red;
+}
+
+/* Center the header content horizontally */
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+}
+
+.sticky-header header-list{ 
+    text-align: center;
+    align-content: center;
+ }
+
+.header-list h1 {
+    font-size: 30px;
+    color: red;
+}
+
+.header-list h2 {
+    font-size: 20px;
+    color: green;
+}
+
+.sticky-header p {
+  position: absolute; /* Set position to absolute */
+  bottom: 0; /* Position at the bottom */
+  right: 0; /* Position at the right */
+  margin: 30px;
+  color: black;
+}
+
+main {
+    margin-top: 40px;
+    width: 97%;
+    border: 5px solid red;
+    align-content: center;
+    padding: 5px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 5px;
+ }
+
+.container-grid > div{
+    
+}
+
+
+.section1 {
+    grid-column:  1;
+    grid-row: 1;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section2 {
+    grid-column:  2;
+    grid-row: 1;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section3 {
+    grid-column:  3;
+    grid-row: 1;
+    font-size: 10px;
+   text-align: center;
+}
+
+.section4 {
+    grid-column:  4;
+    grid-row: 1;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section5 {
+    grid-column:  1;
+    grid-row: 2;
+    font-size: 10px;
+    text-align: center;
+}
+
+  .section6 {
+    grid-column:  2;
+    grid-row: 2;
+    font-size: 10px;
+    text-align: center;
+}  
+
+.section7 {
+    grid-column:  3;
+    grid-row: 2;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section8 {
+    grid-column:  4;
+    grid-row: 2;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section9 {
+    grid-column:  1;
+    grid-row: 3;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section10 {
+    grid-column:  2;
+    grid-row: 3;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section11 {
+    grid-column:  3;
+    grid-row: 3;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section12 {
+    grid-column:  4;
+    grid-row: 3;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section13 {
+    grid-column:  1;
+    grid-row: 4;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section14 {
+    grid-column:  2;
+    grid-row: 4;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section15 {
+    grid-column:  3;
+    grid-row: 4;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section16 {
+    grid-column:  4;
+    grid-row: 4;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section17 {
+    grid-column:  1;
+    grid-row: 5;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section18 {
+    grid-column:  2;
+    grid-row: 5;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section19 {
+    grid-column:  3;
+    grid-row: 5;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section20 {
+    grid-column:  4;
+    grid-row: 5;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section21 {
+    grid-column:  1;
+    grid-row: 6;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section22 {
+    grid-column:  2;
+    grid-row: 6;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section23 {
+    grid-column:  3;
+    grid-row: 6;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section24 {
+    grid-column:  4;
+    grid-row: 6;
+    font-size: 10px;
+    text-align: center;
+}
+
+.page-footer {
+  background-color: gold;
+  color: red;
+  width: 97.2%;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  border: 5px solid red;
+}
+
+.footer-content {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center-align the footer content */
+}
