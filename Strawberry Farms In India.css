@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+ }
+
+h1 {
+     text-align:center; 
+    font-size: 50px; 
+    color: red;
+    text-shadow: 2px 2px black;
+ }
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: darkgreen;
+    text-shadow: 2px 2px aqua;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px lightgreen;
+}
+
+h4 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img{
+    width:auto;
+    height: auto;
+}
+
+section {
+    background-color: darkviolet;
+}
+
+.mydiv{
+    border-bottom-style: dashed;
+    border-top-style:dashed;
+    border-right-style: solid;
+    border-left-style: solid;
+    background-color: coral;
+    font-size: 20px;
+}
+
+.mydiv2{
+     border-bottom-style: dashed;
+    border-top-style:dashed;
+    border-right-style: solid;
+    border-left-style: solid;
+    background-color: darkolivegreen;
+    font-size: 20px;
+}
+
+.strawberry{
+    background-color: darkviolet;
+    font-size: 20px;
+ }
+
