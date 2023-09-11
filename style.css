@@ -163,3 +163,75 @@ body {
     background-color: purple;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    /* Adjust the font size for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    .canvas-text {
+        font-size: 16px;
+    }
+    
+    /* Adjust the size of the canvas elements */
+    .canvas {
+        width: 80px; /* You can change this value to your desired width */
+        height: 80px; /* You can change this value to your desired height */
+    }
+    
+    .split-container {
+        flex-direction: column;
+    }
+    
+    .split {
+        width: 100%;
+    }
+}
+
+/* Responsive styles for screens with a max width of 480px (for mobile) */
+@media screen and (max-width: 480px) {
+    /* Adjust font sizes and margins for mobile screens */
+    h1 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    
+    h3 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    
+    .canvas-text {
+        font-size: 14px;
+    }
+    
+    /* Adjust the size of the canvas elements for mobile */
+    .canvas {
+        width: 80px; /* You can change this value to your desired width for mobile */
+        height: 80px;
+        margin: auto;/* You can change this value to your desired height for mobile */
+    }
+    
+    .split {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    img {
+        max-width: 100%; /* The image will take up the full width of its container */
+        height: auto;    /* Maintain the original aspect ratio */
+    }
+    
+    /* Adjust other styles as needed for mobile layout */
+}
