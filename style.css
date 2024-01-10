@@ -13,8 +13,8 @@ header {
             font-weight: bold;
             text-align: center;
             text-decoration: none;
-            background-color: yellow; /* Green background color */
-            color: black; /* White text color */
+            background-color: purple; /* Green background color */
+            color: black;
             border-radius: 5px; /* Rounded corners */
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -22,8 +22,8 @@ header {
 
         /* Hover effect for the button */
         .header-button:hover {
-            background-color: purple;
-                    color: white;
+            background-color: yellow;
+                    color: black;
         }
 
 
