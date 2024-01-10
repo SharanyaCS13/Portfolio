@@ -173,6 +173,11 @@ body {
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
+
+.styled-button:hover {
+    background-color: purple;
+    color: white;
+}
 @media screen and (max-width: 768px) {
     /* Adjust the font size for smaller screens */
     h1 {
