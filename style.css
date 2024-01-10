@@ -164,6 +164,15 @@ body {
     color: white;
 }
 
+.projects  {
+    display: inline-block;
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 @media screen and (max-width: 768px) {
     /* Adjust the font size for smaller screens */
     h1 {
@@ -192,6 +201,8 @@ body {
         width: 100%;
     }
 }
+
+
 
 /* Responsive styles for screens with a max width of 480px (for mobile) */
 @media screen and (max-width: 480px) {
