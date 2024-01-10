@@ -164,7 +164,7 @@ body {
     color: white;
 }
 
-projects  {
+.styled-button  {
     display: inline-block;
     background-color: black;
     color: white;
