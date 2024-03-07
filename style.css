@@ -28,7 +28,7 @@ header {
 
 
 body {
-    background-image: url('Doodle.PNG');
+    background-image: url(Doodle.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
