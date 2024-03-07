@@ -28,12 +28,12 @@ header {
 
 
 body {
-           background-image: 'Doodle.PNG';
-            background-size: cover;
+    background-image: url('Doodle.PNG');
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-            color: white;
-        }
+    color: white;
+}
 
 .container {
             display: flex;
