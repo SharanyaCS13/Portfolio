@@ -29,6 +29,9 @@ header {
 
 body {
            background-image: url('Doodle.PNG');
+            background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
             color: white;
         }
 
