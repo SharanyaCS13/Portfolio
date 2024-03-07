@@ -25,7 +25,9 @@ header {
             background-color: yellow;
                     color: black;
         }
-
+.h1 {
+    color: blue;
+}
 
 body {
     background-image: url(Doodle.jpg);
