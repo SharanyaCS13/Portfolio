@@ -47,8 +47,9 @@ body {
     text-align: centre;
     padding: 20px 20px; 
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
+    margin-right: 20px;
 
 }
 
@@ -108,16 +109,7 @@ padding: 0 2rem;
     color: black;
 }
 
-.topnav .search-container {
-  float: right;
-}
 
-.topnav input[type=text] {
-  padding: 30px;
-  margin-top: 30px;
-  font-size: 20px;
-  border: none;
-}
 
 .topnav a.active {
    background-color: yellow;
@@ -315,6 +307,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
