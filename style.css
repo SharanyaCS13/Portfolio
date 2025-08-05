@@ -36,20 +36,23 @@ body {
 .topnav{
     background-color: black;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between; /* Even spacing between items */
+    background-color: black;
+    color: white;
+    padding: 10px 40px; /* Add side padding */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left
-    display: block;
-    color: white;
-    text-align: centre;
-    padding: 10px 1px; 
     text-decoration: none;
-    font-size: 25px;
-    position: relative;
-    margin-right: 50px;
+    font-size: 28px;  /* Increased font size */
+    transition: 0.3s;
 
 }
 
@@ -307,6 +310,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
