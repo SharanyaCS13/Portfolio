@@ -39,12 +39,11 @@ body {
     display: flex;
     justify-content: space-between; /* Even spacing between items */
     background-color: black;
-    color: white;
     padding: 10px 40px; /* Add side padding */
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
 }
 
 
@@ -53,6 +52,7 @@ body {
     text-decoration: none;
     font-size: 28px;  /* Increased font size */
     transition: 0.3s;
+    color: white;
 
 }
 
@@ -310,6 +310,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
