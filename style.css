@@ -45,11 +45,11 @@ body {
     display: block;
     color: white;
     text-align: centre;
-    padding: 20px 20px; 
+    padding: 10px 1px; 
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
-    margin-right: 30px;
+    margin-right: 50px;
 
 }
 
@@ -88,12 +88,12 @@ cursor: pointer;
 }
 .ticker-item {
 display: inline-block;
-padding: 0 2rem;
+padding: 20px;
 }
 
 .ticker-item a {
 display: inline-block;
-padding: 0 2rem;
+padding: 20px;
     color: white;
 }
 
@@ -307,6 +307,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
