@@ -26,6 +26,7 @@ header {
         }
 h1 {
     color: white;
+            font-size: 25px;
 }
 
 body {
@@ -314,6 +315,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
