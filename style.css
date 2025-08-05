@@ -35,7 +35,7 @@ body {
         }
 
 .topnav{
-     display: flex;
+   display: flex;
     justify-content: space-evenly; /* evenly distribute items */
     align-items: center;
     background-color: black;
@@ -49,12 +49,11 @@ body {
 
 /* Style the links inside the navigation bar */
 .topnav a {
+    color: white;
     text-decoration: none;
     font-size: 22px; /* large enough for laptops */
     transition: 0.3s;
     padding: 10px 15px;
-    color: white;
-
 }
 
 .ticker-container {
@@ -311,6 +310,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
