@@ -30,11 +30,11 @@ h1 {
 }
 
 body {
-            background-color: yellow;
+            background-color: black;
             color: white;
         }
 .topnav{
-    background-color: turquoise;
+    background-color: black;
     overflow: hidden;
    
  
@@ -276,4 +276,5 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
