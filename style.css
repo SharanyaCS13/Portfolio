@@ -39,7 +39,7 @@ body {
     justify-content: space-evenly; /* evenly distribute items */
     align-items: center;
     background-color: black;
-    padding: 15px 15px;
+    padding: 15px 20px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     font-size: 22px; /* large enough for laptops */
     transition: 0.3s;
-    padding: 10px 10px;
+    padding: 10px 15px;
     color: white;
 
 }
@@ -311,6 +311,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
