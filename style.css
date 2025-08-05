@@ -13,7 +13,7 @@ header {
             font-weight: bold;
             text-align: center;
             text-decoration: none;
-            background-color: purple; /* Green background color */
+            background-color: purple; /* purple background color */
             color: black;
             border-radius: 5px; /* Rounded corners */
             cursor: pointer;
@@ -34,10 +34,8 @@ body {
             color: white;
         }
 .topnav{
-    background-color: black;
+    background-color: yellow;
     overflow: hidden;
-   
- 
 }
 
 
@@ -47,7 +45,7 @@ body {
     display: block;
     color: white;
     text-align: centre;
-    padding: 10px 10px; 
+    padding: 15px 15x; 
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -57,7 +55,7 @@ body {
 .ticker-container {
 width: 100%;
 overflow: hidden;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .ticker-wrapper {
 width: 100%;
@@ -317,6 +315,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
