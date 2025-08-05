@@ -115,9 +115,9 @@ padding: 0 2rem;
 }
 
 .topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
+  padding: 10px;
+  margin-top: 16px;
+  font-size: 20px;
   border: none;
 }
 
@@ -164,7 +164,7 @@ padding: 0 2rem;
 .content h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
 }
 
 .content p {
@@ -232,8 +232,8 @@ padding: 0 2rem;
 
 .styled-button  {
     display: inline-block;
-    background-color: black;
-    color: white;
+    background-color: yellow;
+    color: black;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -317,6 +317,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
