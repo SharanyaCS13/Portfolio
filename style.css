@@ -39,10 +39,10 @@ body {
     justify-content: space-evenly; /* evenly distribute items */
     align-items: center;
     background-color: black;
-    padding: 15px 20px;
+    padding: 15px 15px;
     position: fixed;
     top: 0;
-    width: 80%;
+    width: 99%;
 }
 
 
@@ -310,6 +310,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
