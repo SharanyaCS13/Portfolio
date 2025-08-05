@@ -3,7 +3,6 @@ header {
             justify-content: space-between;
             align-items: center;
             padding: 10px;
-            color: lightblue;
         }
 
         /* Button styles */
@@ -315,6 +314,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
