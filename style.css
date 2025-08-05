@@ -33,16 +33,17 @@ body {
             background-color: black;
             color: white;
         }
+
 .topnav{
     background-color: black;
     overflow: hidden;
     display: flex;
     justify-content: space-between; /* Even spacing between items */
     background-color: black;
-    padding: 10px 40px; /* Add side padding */
+    padding: 10px 20px; /* Add side padding */
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 80%;
     z-index: 100;
 }
 
@@ -310,6 +311,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
