@@ -26,119 +26,110 @@ header {
                     color: black;
         }
 h1 {
-    color: lightblue;
+    color: white;
 }
 
 body {
-    background-image: url(Doodle.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: lightblue;
-}
-
-.container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
-            }
-
-.canvas {
-            background-color: gold;
-            margin-top: 5px;
-            height: 400px;
-            width: 30%;
-            position: relative;
-            cursor: pointer;
-            }
-      
-.canvas2 {
-            background-color: plum;
-            margin-top: 20px;
-            position: relative;
-            z-index: 1;
-            margin-left: -70px;
-            }
-
-.canvas3 {
-            background-color: pink;
-            margin-top: 5px;
-            position: relative;
-            margin-left: -70px;
-            }
-
-.canvas-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            opacity: 2;
-            transition: opacity 0.3s ease;
-            color: black;
-            font-size: 30px;
-            }
-
-
-.canvas:hover {
-            transform: scale(1.1);
-            background-color: hsl(39, 100%, 35%); /* Darken the background color on hover for canvas 1 */
-            }
-
-.canvas2:hover {
-            background-color: hsl(270, 100%, 70%); /* Darken the background color on hover for canvas 2 */
-            }
-
-.canvas3:hover {
-            background-color: hsl(330, 100%, 35%); /* Darken the background color on hover for canvas 3 */
-            }
-
-.canvas:hover .canvas-text {
-            opacity: 2;
-           }
-
-
-body {
-            background-color: black;
+            background-color: yellow;
             color: white;
         }
-
-.split-container {
-    display: flex;
-    height: 90vh;
-}
-
-.split {
-    flex: 1;
+.topnav{
+    background-color: turquoise;
     overflow: hidden;
-    box-sizing: border-box;
-    padding: 20px;
+   
+ 
 }
 
-/* Left split styles */
-#leftSplit {
-    background-color: purple;
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left
+    display: block;
+    color: coral;
+    text-align: centre;
+    padding: 10px 10px; 
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+
 }
 
-#rightSplit{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color: gold;
+.ticker-container {
+width: 100%;
+overflow: hidden;
+    margin-top: 10px;
+}
+.ticker-wrapper {
+width: 100%;
+padding-left: 100%;
+background-color: black;
+    color: white;
+}
+@keyframes ticker {
+0% {
+transform: translate3d(0, 0, 0);
+}
+100% {
+transform: translate3d(-100%, 0, 0);
+}
+}
+.ticker-transition {
+display: inline-block;
+white-space: nowrap;
+padding-right: 100%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-name: ticker;
+animation-duration: 40s;
+    animation-delay: 0;
+}
+.ticker-transition:hover {
+animation-play-state: paused;
+cursor: pointer;
+}
+.ticker-item {
+display: inline-block;
+padding: 0 2rem;
+}
+
+.ticker-item a {
+display: inline-block;
+padding: 0 2rem;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: yellow;
     color: black;
 }
 
-#rightSplit main{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+/* Add an active class to highlight the current page */
+.topnav a:active {
+    background-color: yellow;
+    color: black;
 }
 
-#rightSplit p{
-    border-top: 2px solid purple;
-    border-bottom: 2px solid purple;
+.topnav .search-container {
+  float: right;
 }
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav a.active {
+   background-color: yellow;
+    color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
 
 .project-container {
     display: flex;
@@ -209,8 +200,8 @@ body {
 }
 
 .styled-button:hover {
-    background-color: purple;
-    color: white;
+    background-color: white;
+    color: black;
 }
 @media screen and (max-width: 768px) {
     /* Adjust the font size for smaller screens */
@@ -285,3 +276,4 @@ body {
     
     /* Adjust other styles as needed for mobile layout */
 }
+
