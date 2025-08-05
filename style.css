@@ -42,7 +42,8 @@ body {
     padding: 15px 15px;
     position: fixed;
     top: 0;
-    width: 99%;
+    width: 100%;
+    z-index: 1000;
 }
 
 
@@ -310,6 +311,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
