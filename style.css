@@ -33,7 +33,7 @@ body {
             color: white;
         }
 .topnav{
-    background-color: yellow;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ body {
     display: block;
     color: white;
     text-align: centre;
-    padding: 15px 15x; 
+    padding: 20px 20px; 
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -54,7 +54,7 @@ body {
 .ticker-container {
 width: 100%;
 overflow: hidden;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .ticker-wrapper {
 width: 100%;
@@ -112,8 +112,8 @@ padding: 0 2rem;
 }
 
 .topnav input[type=text] {
-  padding: 10px;
-  margin-top: 16px;
+  padding: 30px;
+  margin-top: 30px;
   font-size: 20px;
   border: none;
 }
@@ -124,7 +124,7 @@ padding: 0 2rem;
 }
 
 .content {
-  padding: 16px;
+  padding: 20px;
 }
 
 .split-container {
@@ -314,6 +314,7 @@ padding: 0 2rem;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
