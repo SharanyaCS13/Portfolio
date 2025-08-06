@@ -34,6 +34,21 @@ body {
             color: white;
         }
 
+ .styled-link {
+    color: white;
+    background-color: purple;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .styled-link:hover {
+    background-color: yellow;
+    color: black;
+  }
+
 .topnav{
    display: flex;
     justify-content: space-evenly; /* evenly distribute items */
@@ -310,6 +325,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
