@@ -134,44 +134,6 @@ padding: 20px;
     color: black;
 }
 
-.topnav .icon {
-      display: none;
-      font-size: 26px;
-      color: #fff;
-      cursor: pointer;
-      background: none;
-      border: none;
-    }
-
-    /* Add space for content so fixed nav doesn't cover it */
-    main { padding-top: 72px; }
-
-    /* Responsive behaviour */
-    @media (max-width: 768px) {
-      /* hide text links, show icon */
-      .topnav a:not(.icon) { display: none; }
-      .topnav .icon { display: block; margin-left: auto; }
-
-      /* when responsive class is active, stack links vertically */
-      .topnav.responsive {
-        flex-direction: column;
-        align-items: stretch;
-        padding: 8px 10px;
-      }
-
-      .topnav.responsive a {
-        display: block;
-        text-align: left;
-        padding: 12px 16px;
-        border-top: 1px solid rgba(255,255,255,0.06);
-      }
-
-      /* keep the icon visible at top-right when open */
-      .topnav.responsive .icon {
-        position: absolute;
-        top: 10px;
-        right: 12px;
-      }
     
 .content {
   padding: 20px;
@@ -364,6 +326,7 @@ padding: 20px;
     
     /* Adjust other styles as needed for mobile layout */
 }
+
 
 
 
